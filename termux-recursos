@@ -26,5 +26,5 @@ pkg install tsudo
 pip install requests
 sleep 2
 echo -e "\033[1;36mLISTO SU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
-date {
+date 
 rm -irf  termux-recursos
