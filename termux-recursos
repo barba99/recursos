@@ -14,8 +14,9 @@ pkg install xapian-tools -y
 apt install util-linux -y
 apt install ncurses-utils -y
 pkg install curl 
+apt install perl
 apt install nano -y
 pip install requests
 sleep 2
 echo -e "\033[1;36mLISTO SU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
-rm -irf recursos.sh{
+rm -irf termux-recursos
