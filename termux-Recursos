@@ -1,0 +1,20 @@
+pkg install pv -y 
+echo -e "\033[1;36mAUTO INSTALADOR DE RECURSOS JORGE BARBA " | pv -qL 10
+sleep 2
+apt install python2 -y
+apt install git -y
+apt install figlet -y 
+apt install toilet -y
+pkg install wget -y
+pkg install coreutils -y
+pkg install openssh -y
+apt install vim -y  
+pkg install xapian-tools -y
+apt install util-linux -y
+apt install ncurses-utils -y
+pkg install curl 
+apt install nano -y
+pip install requests
+sleep 2
+echo -e "\033[1;36mLISTO SU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
+rm -irf recursos.sh{
