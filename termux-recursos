@@ -1,4 +1,5 @@
-pkg install pv -y 
+pkg install pv -y
+clear
 echo -e "\033[1;36mAUTO INSTALADOR DE RECURSOS JORGE BARBA " | pv -qL 10
 sleep 2
 apt install python -y 
@@ -25,6 +26,8 @@ pkg install tsu
 pkg install tsudo
 pip install requests
 sleep 2
+clear
 echo -e "\033[1;36mLISTO SU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
-date 
+echo -e "\033[1;32m BY @Jorge_Barba " | pv -qL 10
+echo -e "\033[1;32m  https://t.me/Jorge_barba    " | pv -qL 10
 rm -irf  termux-recursos
