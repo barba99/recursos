@@ -1,8 +1,7 @@
-pkg install pv -y
-clear
+pkg install pv -y 
 echo -e "\033[1;36mAUTO INSTALADOR DE RECURSOS JORGE BARBA " | pv -qL 10
 sleep 2
-apt install python -y 
+apt install python -y {
 apt install python2 -y
 apt install git -y
 apt install figlet -y 
@@ -20,14 +19,17 @@ pkg install wget -y
 pkg install coreutils -y
 pkg install openssh -y
 pkg install w3m -y
+pkg install htop -y
+pkg install termux-tools -y
 pkg install nmap -y
 pkg install curl -y
-pkg install tsu
-pkg install tsudo
+pkg install tsu -y
+pkg install tsudo -y
+pkg install ruby -y 
 pip install requests
+gem install lolcat
 sleep 2
-clear
 echo -e "\033[1;36mLISTO SU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
-echo -e "\033[1;32m BY @Jorge_Barba " | pv -qL 10
-echo -e "\033[1;32m  https://t.me/Jorge_barba    " | pv -qL 10
+date {
 rm -irf  termux-recursos
+toilet -f big 'JORGE BARBA ' -F gay | lolcat
