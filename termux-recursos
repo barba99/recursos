@@ -7,7 +7,7 @@ sleep 2
 pkg install python -y 
 pkg install python2 -y
 apt install git -y
-apt install figlet -y 
+apt install figlet -y  
 apt install toilet -y
 apt install vim -y  
 apt install util-linux -y
@@ -34,6 +34,8 @@ gem install lolcat
 sleep 2
 clear
 echo -e "\033[1;31mSU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
+echo -e "\033[1;32m JORGE BARBA https://t.me/Jorge_barba "
+sleep 2
 cal
 rm -irf  termux-recursos
 toilet -f big 'JORGE ' -F gay | lolcat
