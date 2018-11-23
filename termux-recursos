@@ -1,3 +1,5 @@
+pkg install sl
+sl 
 pkg install pv -y 
 clear
 echo -e "\033[1;36mAUTO INSTALADOR DE RECURSOS JORGE BARBA " | pv -qL 10
@@ -31,8 +33,8 @@ pip install requests
 gem install lolcat
 sleep 2
 clear
-echo -e "\033[1;36mLISTO SU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
-date 
+echo -e "\033[1;31mSU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
+cal
 rm -irf  termux-recursos
 toilet -f big 'JORGE ' -F gay | lolcat
 
