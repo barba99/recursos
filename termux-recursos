@@ -28,6 +28,8 @@ apt install nano -y
 apt install unzip
 pkg install xapian-tools -y
 pkg install wget -y
+pkg install  ccache 
+pkg install imagemagick -y
 pkg install coreutils -y
 pkg install openssh -y
 pkg install w3m -y
@@ -42,9 +44,11 @@ pip install requests
 pip install --upgrade pip
 pip2 install requests
 pip2 install mechanize
+pkg install cowsay
 pip2 install rsa
 pip2 install thrift==0.9.3
 pip2 install requests
+pip2 install dnspython
 pip2 install bs4
 pip2 install gtts
 pip2 install googletrans
