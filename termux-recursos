@@ -22,7 +22,6 @@ echo -ne " \033[1;33m["
 echo -ne "\033[1;33m]"
 sleep 1s
 echo
-tput cuu1 && tput dl1
 done
 echo -e " \033[1;33m[\033[1;31m####################\033[1;33m] - \033[1;32mOK\033[0m"
 sleep 1s
@@ -31,53 +30,57 @@ echo -e "${cor[2]} AUTO INSTALADOR DE RECURSOS JORGE BARBA " | pv -qL 10
 sleep 2
 echo -e "$barra"
 echo -e "${cor[5]} $txt python"
-fun_bar "pkg install python -y "
+fun_bar 'pkg install python -y '
 echo -e "${cor[5]} $txt python2"
-fun_bar "pkg install python2 -y"
+fun_bar 'pkg install python2 -y'
 echo -e "${cor[5]} $txt openssl"
-fun_bar "pkg install openssl-tool -y "
-echo -e "${cor[5]} $txt git"
-fun_bar "apt install git -y"
+fun_bar 'pkg install openssl-tool -y '
+echo -e  "${cor[5]} $txt git"
+fun_bar 'apt install git -y'
+echo -e "${cor[5]} $txt ruby"
+fun_bar 'pkg install ruby -y'
+echo -e "${cor[5]} $txt tsu"
+fun_bar 'apt install tsu'
 echo -e "${cor[5]} $txt binutils"
-fun_bar "pkg install binutils"
+fun_bar 'pkg install binutils'
 echo -e "${cor[5]} $txt nodejs "
-fun_bar "pkg install nodejs -y"
+fun_bar 'pkg install nodejs -y'
 echo -e "${cor[5]} $txt shodan"
-fun_bar "pip2 install shodan"
+fun_bar 'pip2 install shodan'
 echo -e "${cor[5]} $txt grep"
-fun_bar "pkg install grep -y"
+fun_bar 'pkg install grep -y'
 echo -e "${cor[5]} $txt git-hydra "
-fun_bar "pkg install git hydra -y"
+fun_bar 'pkg install git hydra -y'
 echo -e "${cor[5]} $txt alpine"
-fun_bar "pkg install alpine"
+fun_bar 'pkg install alpine'
 echo -e "${cor[5]} $txt mtools"
-fun_bar "pkg install mtools"
+fun_bar 'pkg install mtools'
 echo -e "${cor[5]} $txt figlet"
-fun_bar "apt install figlet -y"
+fun_bar 'apt install figlet -y'
 echo -e "${cor[5]} $txt toilet"
-fun_bar "apt install toilet -y"
+fun_bar 'apt install toilet -y'
 echo -e "${cor[5]} $txt vim"
-fun_bar "apt install vim -y  "
+fun_bar 'apt install vim -y  '
 echo -e "${cor[5]} $txt util-linux"
-fun_bar "apt install util-linux -y"
+fun_bar 'apt install util-linux -y'
 echo -e "${cor[5]} $txt nano"
 fun_bar "apt install nano -y"
 echo -e "${cor[5]} $txt unzip"
-fun_bar "apt install unzip"
+fun_bar 'apt install unzip'
 echo -e "${cor[5]} $txt termux-tools"
-fun_bar "pkg install termux-tools -y"
+fun_bar 'pkg install termux-tools -y'
 echo -e "${cor[5]} gem lolcat"
-fun_bar "gem install lolcat"
+fun_bar 'gem install lolcat'
 echo -e "${cor[5]} $txt openssh"
-fun_bar "pkg install openssh -y"
+fun_bar 'pkg install openssh -y'
 echo -e "${cor[5]} pip2 requests"
-fun_bar "pip2 install requests"
+fun_bar 'pip2 install requests'
 echo -e "${cor[5]} pip2 dnspython"
-fun_bar "pip2 install dnspython"
+fun_bar 'pip2 install dnspython'
 echo -e "${cor[5]} pip2 bs4"
-fun_bar "pip2 install bs4"
+fun_bar 'pip2 install bs4'
 echo -e "$barra"
 echo -e "\033[1;31mSU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
 echo -e "\033[1;32m JORGE BARBA https://t.me/Jorge_barba "
-rm -irf  install.sh
+rm -irf termux-recursos
 toilet -f future $name -F gay | lolcat
