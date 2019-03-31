@@ -41,6 +41,8 @@ echo -e "${cor[5]} $txt ruby"
 fun_bar 'pkg install ruby -y'
 echo -e "${cor[5]} $txt tsu"
 fun_bar 'apt install tsu'
+echo -e "${cor[5]} $txt php"
+fun_bar 'pkg install php'
 echo -e "${cor[5]} $txt binutils"
 fun_bar 'pkg install binutils'
 echo -e "${cor[5]} $txt nodejs "
