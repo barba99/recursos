@@ -1,0 +1,44 @@
+pkg install sl
+sl 
+pkg install pv -y 
+clear
+echo -e "\033[1;36mAUTO INSTALADOR DE RECURSOS JORGE BARBA " | pv -qL 10
+sleep 2
+pkg install python -y 
+pkg install python2 -y
+apt install git -y
+apt install figlet -y  
+apt install toilet -y
+apt install vim -y  
+apt install util-linux -y
+apt install ncurses-utils -y
+apt install perl -y
+apt install php -y
+apt install cowsay
+apt install zip
+apt install nano -y
+apt install unzip
+pkg install xapian-tools -y
+pkg install wget -y
+pkg install coreutils -y
+pkg install openssh -y
+pkg install w3m -y
+pkg install htop -y
+pkg install termux-tools -y
+pkg install nmap -y
+pkg install curl -y
+pkg install tsu -y
+pkg install tsudo -y
+pkg install ruby -y 
+pip install requests
+gem install lolcat
+sleep 2
+clear
+echo -e "\033[1;31mSU TERMUX QUEDO ACTULIZADO CON LOS RECURSOS BASICOS  " | pv -qL 10
+echo -e "\033[1;32m JORGE BARBA https://t.me/Jorge_barba "
+sleep 2
+cal
+rm -irf  termux-recursos
+toilet -f big 'JORGE ' -F gay | lolcat
+
+ toilet -f big 'BARBA ' -F gay | lolcat
