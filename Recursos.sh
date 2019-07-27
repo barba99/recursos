@@ -73,12 +73,12 @@ echo -ne "\033[1;33m [ ! ] instalando screenfetch"
 pkg install screenfetch -y > /dev/null 2>&1 && echo -e "\033[1;32m [OK]"
 fi
 if
-[[ -e /data/data/com.termux/files/usr/bin/git ]] &&  git="$ok"
+[[ -e /data/data/com.termux/files/usr/bin/pv ]] &&  pv="$ok"
 then
-echo -e "\033[1;36mgit         $ok"
+echo -e "\033[1;36mpv         $ok"
 else
-echo -ne "\033[1;33m [ ! ] instalando git"
-pkg install git -y > /dev/null 2>&1 && echo -e "\033[1;32m [OK]"
+echo -ne "\033[1;33m [ ! ] instalando pv"
+pkg install pv -y > /dev/null 2>&1 && echo -e "\033[1;32m [OK]"
 fi
 if
 [[ -e /data/data/com.termux/files/usr/bin/figlet ]] &&  figlet="$ok"
