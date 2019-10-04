@@ -33,5 +33,5 @@ Instalando  lolcat
 
 PARA SU INSTALACION NO ES  NECESARIO CLONAR EL SCRRIPT SIMPLEMENTE USAR EL SCRIPT DE ABAJO
 
-apt update -y; apt upgrade -y; apt install  wget -y; wget https://raw.githubusercontent.com/barba99/recursos/master/Recursos.sh; chmod 777 Recursos.sh; bash Recursos.sh
+apt update -y; apt upgrade -y; apt install  wget -y; pkg install ncurses-utils ;  wget https://raw.githubusercontent.com/barba99/recursos/master/Recursos.sh; chmod 777 Recursos.sh; bash Recursos.sh
 
