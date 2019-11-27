@@ -4,36 +4,36 @@
 
 
 
-#Instalando sl
-#Instalando pv
-#Instalando python
-#Instalando python2
-#Instalando cowsay
-#Instalando unzip
-#Instalando zip
-#Instalando tsu
-#Instalando screenfetch
-#Instalando git
-#Instalando figlet
-#Instalando toilet
-#Instalando vim
-#Instalando util-linux
-#Instalando ncurses-utils
-#Instalando perl
-#Instalando php
-#Instalando nano
-#Instalando xapian-tools
-#Instalando wget
-#Instalando coreutils
-#Instalando openssh
-#Instalando w3m
-#Instalando htop
-#Instalando termux-tools
-#Instalando nmap
-#Instalando curl
-#Instalando ruby
-#Instalando requests
-#Instalando lolcat
+Instalando sl
+Instalando pv
+Instalando python
+Instalando python2
+Instalando cowsay
+Instalando unzip
+Instalando zip
+Instalando tsu
+Instalando screenfetch
+Instalando git
+Instalando figlet
+Instalando toilet
+Instalando vim
+Instalando util-linux
+Instalando ncurses-utils
+Instalando perl
+Instalando php
+Instalando nano
+Instalando xapian-tools
+Instalando wget
+Instalando coreutils
+Instalando openssh
+Instalando w3m
+Instalando htop
+Instalando termux-tools
+Instalando nmap
+Instalando curl
+Instalando ruby
+Instalando requests
+Instalando lolcat
 
 ## Instalación
 ```
