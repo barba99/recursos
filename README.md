@@ -4,12 +4,12 @@
 
 
 
-#Instalando sl
-#Instalando pv
-#Instalando python
-#Instalando python2
-#Instalando cowsay
-#Instalando unzip
+#Instalando sl#
+#Instalando pv#
+#Instalando python#
+#Instalando python2#
+#Instalando cowsay#
+#Instalando unzip#
 #Instalando zip
 #Instalando tsu
 #Instalando screenfetch
@@ -37,10 +37,8 @@
 
 ## Instalación
 ```
-apt update -y 
-apt upgrade -y  
-apt install wget -y  
-pkg install ncurses-utils  
+pkg install wget -y
+pkg install  ncurses-utils  
 wget https://raw.githubusercontent.com/barba99/recursos/master/Recursos.sh  
 chmod 777 Recursos.sh 
 bash Recursos.sh
