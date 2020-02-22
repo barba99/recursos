@@ -36,7 +36,7 @@
 () lolcat
 
 ## Instalación
-``
+```
 pkg install wget -y  
 ```
 ```
