@@ -4,11 +4,11 @@
 
 
 
-() sl
-() pv
-() python
-() python2
-() cowsay
++ sl
++ pv
++ python
++ python2
++ cowsay
 () unzip
 () zip
 () tsu
