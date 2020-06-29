@@ -35,13 +35,13 @@
 
 ## Instalación
 ```
-() pkg install wget -y  
++ pkg install wget -y  
 ```
 ```
-() pkg install  ncurses-utils  
++ pkg install  ncurses-utils  
 ```
 ```
-() wget https://raw.githubusercontent.com/barba99/recursos/master/Recursos.sh  
++ wget https://raw.githubusercontent.com/barba99/recursos/master/Recursos.sh  
 chmod 777 Recursos.sh 
 bash Recursos.sh
 ```
