@@ -35,8 +35,7 @@
 
 ## Instalación
 
-+ pkg install wget -y  
-+ pkg install  ncurses-utils  
++ pkg install wget ncurses-utils -y
 + wget https://raw.githubusercontent.com/barba99/recursos/master/Recursos.sh  
 chmod 777 Recursos.sh 
 bash Recursos.sh
