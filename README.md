@@ -6,6 +6,7 @@
 + pv
 + python
 + python2
++ python3
 + cowsay
 + unzip
 + zip
