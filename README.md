@@ -43,7 +43,6 @@
 ```
 bash <(curl -sL https://cutt.ly/jhiH7eD )
 ```
-![loc](https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/87280050_576969502891117_4221847852902514688_n.jpg?_nc_cat=109&_nc_ohc=Jl2Yk5LMCmgAX-FeulK&_nc_ht=scontent-ort2-1.xx&_nc_tp=14&oh=8db71aa7dd0abea32b174620258f1ecd&oe=5EC1A576)
-
+![loc](https://scontent.fmex13-1.fna.fbcdn.net/v/t1.0-9/127525933_759590734628992_3910210505872181300_n.png?_nc_cat=101&ccb=2&_nc_sid=2d5d41&efg=eyJpIjoidCJ9&_nc_eui2=AeEjbeQVJTxRupl0upMyb-7swA75FQdW4unADvkVB1bi6an9ATDOjifmcEXLN9eNeTAegMMh8Rz7HUrWRrdyRSmi&_nc_ohc=MaWULQw8GXwAX8w6T4W&_nc_ht=scontent.fmex13-1.fna&oh=c8fec792649413943504d398a7caf9ce&oe=5FE35B1D)
 
 [![Telegram](https://img.shields.io/badge/-TELEGRAM-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/termux_tutoriales)
