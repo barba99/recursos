@@ -31,7 +31,7 @@
 + nmap
 + curl
 + ruby
-+ requests
++ nodejs
 + lolcat
 + clang
 + translate-shell
