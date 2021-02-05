@@ -2,42 +2,40 @@
 
 
 
-+ sl
-+ pv
-+ python
-+ python2
-+ python3
-+ cowsay
-+ unzip
-+ zip
-+ tsu
-+ screenfetch
-+ git
-+ figlet
-+ toilet
-+ vim
-+ util-linux
-+ ncurses-utils
-+ perl
-+ php
-+ nano
-+ xapian-tools
-+ wget
-+ coreutils
-+ openssh
-+ w3m
-+ htop
-+ termux-tools
-+ nmap
-+ curl
-+ ruby
-+ nodejs
-+ lolcat
-+ clang
-+ translate-shell
-+ YouTube-dl
-
-
+- [x] sl
+- [x] pv
+- [x] python
+- [x] python2
+- [x] python3
+- [x] cowsay
+- [x] unzip
+- [x] zip
+- [x] tsu
+- [x] screenfetch
+- [x] git
+- [x] figlet
+- [x] toilet
+- [x] vim
+- [x] util-linux
+- [x] ncurses-utils
+- [x] perl
+- [x] php
+- [x] nano
+- [x] xapian-tools
+- [x] wget
+- [x] coreutils
+- [x] openssh
+- [x] w3m
+- [x] htop
+- [x] termux-tools
+- [x] nmap
+- [x] curl
+- [x] ruby
+- [x] nodejs
+- [x] lolcat
+- [x] clang
+- [x] translate-shell
+- [x] youtube-dl
 
 
 ## Instalación
