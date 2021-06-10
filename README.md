@@ -2,12 +2,23 @@
 
 
 
-- [x] sl            - [x] pv       - [x] python
-- [x] python2       - [x] python3  - [x] cowsay
-- [x] unzip         - [x] zip      - [x] tsu
-- [x] screenfetch.  - [x] git      - [x] figlet
-- [x] toilet        - [x] vim      - [x] util-linux
-- [x] ncurses-utils - [x] perl
+- [x] sl            
+- [x] pv       
+- [x] python
+- [x] python2       
+- [x] python3  
+- [x] cowsay
+- [x] unzip         
+- [x] zip      
+- [x] tsu
+- [x] screenfetch.  
+- [x] git      
+- [x] figlet
+- [x] toilet        
+- [x] vim      
+- [x] util-linux
+- [x] ncurses-utils 
+- [x] perl
 - [x] php
 - [x] nano
 - [x] xapian-tools
@@ -25,6 +36,7 @@
 - [x] clang
 - [x] translate-shell
 - [x] youtube-dl
+- [x] spotdl
 
 
 ## Instalación
